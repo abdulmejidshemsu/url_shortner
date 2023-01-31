@@ -29,7 +29,9 @@ URL Shortener is a simple easy to use built using Laravel. It allows you to shor
 ## How to run?
 
 1.  `composer install`
-2.  `cp .env.example .env`
-3.  `Configure your .env setting for your database "DB_DATABASE"`
-4.  `php artisan migrate`
-5.  `php artisan serve`
+2.  `npm install`
+3.  `npm run build`
+4.  `cp .env.example .env`
+5.  `Configure your .env setting for your database "DB_DATABASE"`
+6.  `php artisan migrate`
+7.  `php artisan serve`
