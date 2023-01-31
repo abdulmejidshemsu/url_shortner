@@ -2,7 +2,7 @@
 
 [Live DEMO](https://url-shortening.onlihop.com)
 ![enter image description here](https://fv9-3.failiem.lv/thumb_show.php?i=hyy8u6pa7&view)
-URL Shortener is a simple easy to use built using TALL stack (Laravel, Livewire, Tailwindcss, alpinejs) . It allows you to shorten long URLs into easy-to-remember short links.
+URL Shortener is a simple easy to use built using Laravel. It allows you to shorten long URLs into easy-to-remember short links.
 
 # Features
 
@@ -29,6 +29,7 @@ URL Shortener is a simple easy to use built using TALL stack (Laravel, Livewire,
 ## How to run?
 
 1.  `composer install`
-2.  `copy .env.example to .env and update database`
-3.  `php artisan migrate`
-4.  `php artisan serve`
+2.  `cp .env.example .env`
+3.  `Configure your .env setting for your database "DB_DATABASE"`
+4.  `php artisan migrate`
+5.  `php artisan serve`
