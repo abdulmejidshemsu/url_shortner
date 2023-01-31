@@ -1,6 +1,6 @@
 # URL Shortening!
 
-[Live DEMO](https://url-shortening.onlihop.com)
+[Live DEMO](https://ur.onlihop.com)
 ![enter image description here](https://fv9-3.failiem.lv/thumb_show.php?i=hyy8u6pa7&view)
 URL Shortener is a simple easy to use built using Laravel. It allows you to shorten long URLs into easy-to-remember short links.
 
