@@ -22,7 +22,7 @@ class ListUrls extends Component implements Tables\Contracts\HasTable
 
     protected function getTableQuery(): Builder
     {
-        return Url::query()->latest();
+        return Url::where('user_id', auth()->id())->latest();
     }
 
     protected function getTableColumns(): array
