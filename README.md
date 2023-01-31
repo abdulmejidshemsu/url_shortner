@@ -32,6 +32,7 @@ URL Shortener is a simple easy to use built using Laravel. It allows you to shor
 2.  `npm install`
 3.  `npm run build`
 4.  `cp .env.example .env`
-5.  `Configure your .env setting for your database "DB_DATABASE"`
-6.  `php artisan migrate`
-7.  `php artisan serve`
+5.  `php artisan key:generate`
+6.  `Configure your .env setting for your database "DB_DATABASE"`
+7.  `php artisan migrate`
+8.  `php artisan serve`
